@@ -12,6 +12,10 @@ const Home = () => {
         subHeading={"From 8am to 11pm"}
       ></SectionHeading>
       <Category></Category>
+      <SectionHeading
+        heading={"About Us"}
+        subHeading={"See Details"}
+      ></SectionHeading>
       <AboutUs></AboutUs>
     </div>
   );
