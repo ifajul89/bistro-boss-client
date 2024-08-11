@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import MenuItem from "../../Shared/MenuItem/MenuItem";
 
 const PopularMenu = () => {
   const [menu, setMenu] = useState([]);
@@ -12,7 +13,13 @@ const PopularMenu = () => {
       });
   }, []);
 
-  return <div></div>;
+  return (
+    <div className="grid grid-cols-2 gap-6">
+      {menu.map((item) => (
+        <MenuItem key={item._id} item={item}></MenuItem>
+      ))}
+    </div>
+  );
 };
 
 export default PopularMenu;
