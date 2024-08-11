@@ -2,6 +2,7 @@ import SectionHeading from "../../Shared/SectionHeading/SectionHeading";
 import AboutUs from "../AboutUs/AboutUs";
 import Banner from "../Banner/Banner";
 import Category from "../Category/Category";
+import PopularMenu from "../PopularMenu/PopularMenu";
 
 const Home = () => {
   return (
@@ -17,6 +18,8 @@ const Home = () => {
         subHeading={"See Details"}
       ></SectionHeading>
       <AboutUs></AboutUs>
+      <SectionHeading heading={"From Our Menu"} subHeading={"Order Now"}></SectionHeading>
+      <PopularMenu></PopularMenu>
     </div>
   );
 };
