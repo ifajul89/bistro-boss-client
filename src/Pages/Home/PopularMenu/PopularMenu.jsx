@@ -14,7 +14,7 @@ const PopularMenu = () => {
   }, []);
 
   return (
-    <div className="grid grid-cols-2 gap-6">
+    <div className="grid grid-cols-2 gap-10 mx-40 mb-10">
       {menu.map((item) => (
         <MenuItem key={item._id} item={item}></MenuItem>
       ))}
