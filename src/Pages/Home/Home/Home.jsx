@@ -20,6 +20,7 @@ const Home = () => {
       <AboutUs></AboutUs>
       <SectionHeading heading={"From Our Menu"} subHeading={"Order Now"}></SectionHeading>
       <PopularMenu></PopularMenu>
+      <SectionHeading heading={"Chef's Recomendation"} subHeading={"Should Try"}></SectionHeading>
     </div>
   );
 };
