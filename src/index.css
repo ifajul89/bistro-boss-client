@@ -3,5 +3,9 @@
 @tailwind utilities;
 
 .thumbs {
-  @apply flex justify-center
+  @apply flex justify-center;
+}
+
+.btn-yello {
+  @apply btn btn-sm btn-outline border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:border-yellow-500;
 }

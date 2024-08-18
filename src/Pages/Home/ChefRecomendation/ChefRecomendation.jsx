@@ -13,8 +13,6 @@ const ChefRecomendation = () => {
       });
   }, []);
 
-  console.log(menu);
-
   return (
     <div className="grid grid-cols-3 gap-3 mx-40">
       {menu.map((item) => (

@@ -5,7 +5,7 @@ const MenuCard = ({ foodImage, foodName, foodRecipe }) => {
       <div className="space-y-2 my-3 mx-6">
         <h4 className="text-2xl font-semibold">{foodName}</h4>
         <p className="text-sm">{foodRecipe}</p>
-        <button className="btn btn-sm btn-outline border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:border-yellow-500">Add to Cart</button>
+        <button className="btn-yello">Add to Cart</button>
       </div>
     </div>
   );
