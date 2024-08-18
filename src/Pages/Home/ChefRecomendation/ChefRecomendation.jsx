@@ -16,13 +16,13 @@ const ChefRecomendation = () => {
   console.log(menu);
 
   return (
-    <div className="grid grid-cols-3 gap-3">
+    <div className="grid grid-cols-3 gap-3 mx-40">
       {menu.map((item) => (
         <MenuCard
           key={item._id}
           foodImage={item.image}
           foodName={item.name}
-          foodRecipie={item.recipie}
+          foodRecipe={item.recipe}
         ></MenuCard>
       ))}
     </div>
