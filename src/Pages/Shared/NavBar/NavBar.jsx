@@ -21,8 +21,7 @@ const NavBar = () => {
   </>;
 
   return (
-    <div>
-      <div className="navbar bg-base-100">
+      <div className="navbar">
         <div className="flex-1">
           <a className="btn btn-ghost text-xl">Bistro Boss</a>
         </div>
@@ -30,7 +29,6 @@ const NavBar = () => {
           {navOptions}
         </div>
       </div>
-    </div>
   );
 };
 
