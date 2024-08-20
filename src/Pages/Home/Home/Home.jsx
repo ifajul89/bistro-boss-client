@@ -4,6 +4,7 @@ import Banner from "../Banner/Banner";
 import Category from "../Category/Category";
 import ChefRecomendation from "../ChefRecomendation/ChefRecomendation";
 import PopularMenu from "../PopularMenu/PopularMenu";
+import Testimonals from "../Testimonials/Testimonals";
 
 const Home = () => {
   return (
@@ -29,6 +30,7 @@ const Home = () => {
         subHeading={"Should Try"}
       ></SectionHeading>
       <ChefRecomendation />
+      <Testimonals />
     </div>
   );
 };
